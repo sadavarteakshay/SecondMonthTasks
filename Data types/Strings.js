@@ -71,9 +71,7 @@ console.log("strm1.endsWith('bye') :- ",strm1.endsWith('bye'));
 
 console.log("strm1.slice(0, 5) :- ",strm1.slice(0, 5));
 console.log("strm1.slice(2) :- ",strm1.slice(2));
-
 console.log("strm1.slice(-5, -1)   :- ",strm1.slice(-5, -1));
-
 console.log("strm1.slice(6, 3)     :- ",strm1.slice(6, 3));
 
 console.log("strm1.substring(6, 3) :- ",strm1.substring(6, 3));

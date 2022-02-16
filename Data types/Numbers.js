@@ -108,7 +108,7 @@ console.log('\n-----------------Compare with Object.is----------------- ');
 
 
  console.log('\n----------------- Other math functions ----------------- ');
- console.log( '\nMath.random()    :- ',Math.random()); //Returns a random number from 0 to 1 (not including 1).
+ console.log( '\nMath.random()    :- ',Math.random()*100); //Returns a random number from 0 to 1 (not including 1).
  console.log( 'Math.max(13, 55, -10, 110, 1)    :- ',Math.max(13, 55, -10, 110, 1));
  console.log( 'Math.min(13, 55, -10, 110, 1)    :- ',Math.min(13, 55, -10, 110, 1));
  console.log( 'Math.pow(2, 3)    :- ',Math.pow(2, 3));
