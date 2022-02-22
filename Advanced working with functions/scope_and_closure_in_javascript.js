@@ -79,3 +79,26 @@ console.log('   let a :-', a);
 console.log('   const b :-', b);
 console.log('   var c :-', c);
 
+
+
+
+console.log('\n\n-------------------------Closure----------------------');
+
+function Counter(count) {
+    let counter = count;
+
+    function IncreaseCounter() {
+        return counter += 1;
+    };
+
+
+    return IncreaseCounter;
+}
+
+let innerCounter = Counter(22);
+console.log(innerCounter());
+console.log(innerCounter()); 
+
+
+
+ 
